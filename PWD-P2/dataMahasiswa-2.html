@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Mahasiswa Sederhana</title>
+</head>
+<body>
+
+    <h2>Form Mahasiswa</h2>
+
+    <form>
+        <div style="border: 1px solid black; padding: 15px; margin-bottom: 15px;">
+            <h3>Data Mahasiswa</h3>
+            <p>
+                Nama : <input type="text" name="nama">
+            </p>
+            <p>
+                NPM : <input type="text" name="npm">
+            </p>
+            <p>
+                Kelas : 
+                <select name="kelas">
+                    <option value="">-</option>
+                </select>
+            </p>
+            <p>
+                Jenis Kelamin : 
+                <input type="radio" name="jk" value="Pria"> Pria
+                <input type="radio" name="jk" value="Wanita"> Wanita
+            </p>
+        </div>
+
+        <div style="border: 1px solid black; padding: 15px; margin-bottom: 15px;">
+            <h3>Tempat Tinggal Mahasiswa</h3>
+            <p>
+                Alamat :<br>
+                <textarea name="alamat" rows="4" cols="30"></textarea>
+            </p>
+            <p>
+                Kecamatan : <input type="text" name="kecamatan">
+            </p>
+            <p>
+                Kabupaten/Kotamadya : <input type="text" name="kabupaten">
+            </p>
+            <p>
+                Provinsi : <input type="text" name="provinsi">
+            </p>
+            <p>
+                Kode Pos : <input type="text" name="kodepos">
+            </p>
+        </div>
+
+        <div style="border: 1px solid black; padding: 15px; margin-bottom: 15px;">
+            <h3>Lain-lainnya</h3>
+            <p>
+                Bahasa Pemrograman :<br>
+                <input type="checkbox" name="bahasa" value="C/C++"> C / C++
+                <input type="checkbox" name="bahasa" value="Go Lang"> Go Lang
+                <input type="checkbox" name="bahasa" value="Python"> Python
+                <input type="checkbox" name="bahasa" value="Lainnya"> Lainnya<br>
+                <input type="checkbox" name="bahasa" value="PHP"> PHP
+                <input type="checkbox" name="bahasa" value="Javascript"> Javascript
+                <input type="checkbox" name="bahasa" value="Ruby"> Ruby
+            </p>
+            <p>
+                Kegiatan :<br>
+                <input type="checkbox" name="kegiatan" value="Organisasi Kampus"> Organisasi Kemahasiswaan
+                <input type="checkbox" name="kegiatan" value="Olahraga"> Bidang Olahraga
+                <input type="checkbox" name="kegiatan" value="Lainnya"> Lainnya<br>
+                <input type="checkbox" name="kegiatan" value="Organisasi Luar"> Organisasi di Luar Kampus
+                <input type="checkbox" name="kegiatan" value="Seni"> Bidang Seni
+            </p>
+        </div>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
